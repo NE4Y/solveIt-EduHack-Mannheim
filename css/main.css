@@ -1,0 +1,506 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #eee;
+}
+
+a {
+  cursor: pointer !important;
+  color:rgba(0,146,69,1);
+}
+
+a:hover {
+  cursor: pointer !important;
+  color:rgba(0,214,101,1);
+}
+
+.clear {
+    clear: both;
+}
+
+#mainSearch {
+    margin-top: 15%;
+}
+
+#mainLogo {
+    width: 30%;
+
+}
+#notificationArea {
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   width: 5%;
+   max-width: 200px;
+   min-width: 300px;
+}
+
+.notification {
+    margin: 5px;
+  padding:15px;
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 6px 6px 6px rgba(200,200,200,0.5);
+}
+.accept-btn{
+    margin-right: 30%;
+}
+
+#mainsearch {
+    margin-top:15%;
+    background-color:none;
+}
+
+.navbar-brand {
+    padding-top: 3px;
+}
+
+.navbar:not(.navbar-nav), .navbar-default {
+    background-color: white;
+    border-bottom: 2px solid rgba(0,146,69,1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.navbar ul{
+    margin-left:120px;
+    margin-top:15px;
+}
+
+.navbar li {
+    float:left;
+    margin-right:10px;
+    padding:5px;
+    padding: 8 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display:block;
+    padding: 20 10px;
+    color:black;
+    font-size:0.9em;
+    border:0px;
+    text-transform: uppercase;
+}
+
+.navbar li:hover a {
+    color:white;
+}
+
+.navbar li:hover {
+    -moz-transition:color .2s ease-in, background-color .2s ease-in-out;
+    -o-transition:color .2s ease-in, background-color .2s ease-in-out;
+    -webkit-transition:color .2s ease-in, background-color .2s ease-in-out;
+    background-color: rgba(0,146,69,1);
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.input-group-btn button {
+    height:50px;
+}
+
+.input-group-btn button, .btn.btn-primary {
+    text-shadow:none;
+    color:white;
+    background-image:none;
+    background-color: rgba(0,146,69,1);
+    border:none;
+}
+
+.input-group-btn button:hover, .btn.btn-primary:hover {
+    -moz-transition:color .2s ease-in, background-color .2s ease-in-out;
+    -o-transition:color .2s ease-in, background-color .2s ease-in-out;
+    -webkit-transition:color .2s ease-in, background-color .2s ease-in-out;
+    color:white;
+    background-color: rgba(0,214,101,1);
+}
+
+#mainSearch input.form-control {
+    height:50px;
+}
+
+/* login & register ==============================*/
+
+#loading {
+  width:200px;
+  height:200px;
+  margin: 15px auto;
+}
+
+.login, .register {
+    margin-top:10%;
+}
+
+.login .btn.btn-primary, .register .btn.btn-primary {
+    margin-top:10px;
+    border:none;
+}
+
+.login p, .register p {
+  width:70%;
+}
+
+.login img, .register img {
+  margin:10px;
+  float:right;
+  width:22%;
+  max-width:150px;
+  margin-top:-112px;
+}
+
+p.error {
+  color:rgba(237,28,36,1);
+  font-style: italic;
+}
+
+p.success {
+    color:rgba(0,146,69,1);
+}
+
+.clear {
+  clear:both;
+}
+
+/* problem ==============================*/
+
+
+.problem .headline {
+  padding:10px;
+  margin-bottom:20px;
+}
+
+.problem .headline:not(.mini) {
+   padding-bottom: 30px;
+    background-color: #ddd;
+}
+
+.problem .headline.mini {
+  padding:20px;
+  background-color: rgba(0,214,101,1);
+  border-radius: 15px;
+}
+
+.problem .description {
+  padding:20px;
+  background-color: white;
+  margin-bottom:20px;
+}
+
+.problem .description input.btn.btn-primary {
+  width:200px;
+  display:block;
+  margin:0px auto;
+}
+
+
+/* sidebar user stuffs ==============================*/
+
+.problem .col-md-3, .side {
+  padding: 0 15px;
+  background-color: white;
+}
+
+.side .user-img {
+  margin-top:15px;
+  max-width:100%;
+}
+  
+  
+.user-img img, .user-data img {
+  max-width:100%;
+  height:auto;
+}
+
+.side .user-data {
+  padding:20px;
+  margin-bottom:20px;
+}
+
+.side .btn.btn-primary {
+  font-size:1.2em;
+  padding:20px;
+  margin-bottom:20px;
+  width:100%;
+}
+
+/* recommended users list ==============================*/
+
+.recommended-wrapper {
+  padding-right:10px;
+  margin-bottom: 15px;
+}
+
+.recommended {
+  background-color: #999;
+}
+
+.recommended .user-img {
+  float:left;
+  margin-top:5px;
+  margin-right:5px;
+  width:50px;
+  height:60px;
+}
+
+.recommended.user-data {
+  padding:5px;
+  padding-top:10px;
+}
+
+.recommended span.rank {
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+.recommended .user-data a.name {
+  font-size:1em;
+  color:white;
+  font-weight: 700;
+}
+
+.recommended .btn.btn-primary {
+  font-size:0.8em;
+  margin-left: 20px;
+}
+
+/* recommended similar problems list ==============================*/
+
+.similar {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom:20px;
+}
+
+.similar .problem-name {
+  text-decoration: none;
+  font-size: 1.2em;
+  color:black;
+}
+
+.similar .user-data {
+  font-size: 0.8em;
+  float:right;
+}
+
+.similar .user-data a, span {
+  padding-right:5px;
+}
+
+/* chat ==============================*/
+
+section.chat-background {
+  margin-top:-20px;
+  background-color:rgba(0,146,69,1);
+}
+
+.chat .col-md-9 {
+  background-color:none;
+}
+
+.chat .user-data {
+  padding:20px;
+  margin-bottom:20px;
+}
+
+.chat .content {
+  padding:10px;
+  margin-bottom: 20px;
+}
+
+.chat .post {
+  padding:0px;
+  padding-top:10px;
+  margin:0px;
+  margin-bottom:20px;
+}
+
+.chat .post:nth-child(odd) {
+  background-color:white;
+}
+
+.chat .post:nth-child(even) {
+  background-color:#ddd;
+  padding-left:10px;
+}
+  
+
+.chat .col-md-3.side {
+  background-color: #fff;
+}
+
+.chat .side h1 {
+  word-wrap:normal;
+  font-size: 2em;
+}
+
+
+
+#reply {
+ background-color:#eee; 
+  padding-top:20px;
+}
+
+.btn.btn-default.yellow {
+   background-color: rgba(247,147,30,1);
+  margin-bottom:10px;
+}
+
+#reply .btn.btn-primary {
+  width:500px;
+  display:block;
+  margin:0px auto;
+  margin-bottom:15px;
+}
+
+
+
+/* footer ==============================*/
+
+footer {
+  background-color: #333;
+  margin-top:25px;
+  font-size: 0.8em;
+  color:#999;
+  padding-bottom: 15px;
+  text-align:center;
+}
+
+#footer-nav ul {
+  width:250px;
+  margin: 0px auto;
+  padding-top:10px;
+}
+
+#footer-nav ul li {
+  display:block;
+  float:left;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+footer a {
+  color:#ccc;
+}
+
+
+// profile ================================
+
+#addCompetence{
+    margin: 10px;
+}
+
+img#profile-pic
+{
+	width: 100%;
+	border-radius: 100%;
+	margin-top: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+}
+
+span.key{
+	font-size: 0.9em;
+}
+
+ul#competence-container
+{
+	display: block;
+	margin: 0;
+	padding: 0;		
+}
+
+ul#competence-container li
+{
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+
+.no-chats, .no-questions
+{
+	font-style: italic;
+}
+
+div.chat
+{
+	padding: 10px;
+	margin-bottom: 3px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+div.chat.active:HOVER
+{
+	background-color: #FFF;
+}
+
+div.chat.inactive:HOVER
+{
+	background-color: #CCC;
+}
+
+div.chat a
+{
+	display: none;
+}
+
+div.chat.active:HOVER a.continue, div.chat.inactive:HOVER a.view
+{
+	display: inline;
+}
+
+
+/* Ask question page =========================*/
+
+#matching-persons
+{
+	margin-top: 20px;
+}
+
+
+#matching-persons .person img
+{
+	margin: 10px;
+	border-radius: 100%;
+	float: left;
+	width: 4em;
+	height: 4em;
+}
+
+
+
+#matching-persons .person section h3
+{
+	margin-top: 10px;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 2em;
+	word-wrap: break-word;
+}
+
+#matching-persons .person section p
+{
+	margin: 10px;
+	color: #555;
+}
+
+#matching-persons .person section button
+{
+	margin: 10px;
+}
+
+#ask-public
+{
+	padding: 10px;
+}
+
+span.rightTime {
+    float:right;
+    font-size:0.8em;
+    color:gray;
+}
