@@ -1,36 +1,3 @@
-<<<<<<< HEAD
-
-<h2>EduHack</h2>
-<h3>Feautre:</h3>
-<ul>
-<li>Suchbar (Startseite) 
-  <ul>
-    <li>Hashtag basis, sätze splitten</li>
-  </ul>
-<li>Profil 
-  <ul>
-    <li>Profilbild</li>
-    <li>Name etc.</li>
-    <li>Chathistory</li>
-  </ul>
-</li>
-<li>Chat (important)
-  <ul>
-    <li>Zensierfunktion</li>
-    <li>Bilder senden</li>
-    <li>Lösung publishen</li>
-    <li>Bewertungssystem</li>
-    <li>Gelöstbutton</li>
-    <li>Pushover Benachrichtigung</li>
-  </ul>
-</li>
-<li>Startseite Newsfeed</li>
-<li>Problemlösungsseite</li>
-<li>Ranking / Rankingsortierung</li>
-</ul>
-
-
-=======
 <h1>solveIt</h1>
 <h2>Idee und Ziel:</h2>
 <p>
@@ -42,4 +9,4 @@ In normalen Foren ist es Gang und Gäbe seine Probleme / Fragen einer breiten Ma
 <h2>Technik und Umsetzung:</h2>
 <p>Jeglicher Quelltext wurde ohne Einsatz von Frameworks (mit Ausnahme von JQuery, PDO und Bootstrap) neu geschrieben.
 Um einen möglichst stabilen und intuitieren Livechat verwendet solve.it einen selbstgeschriebenen Pythonwebsocketserver um ein flüssiges Chaterlebnis zu gewährleisten.</p>
->>>>>>> cb5e555c9b93014792abedbe6947634669b375c0
+
